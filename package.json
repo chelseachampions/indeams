@@ -1,7 +1,7 @@
 {
   "name": "open-pro-react",
   "version": "0.1.0",
-  "homepage": "http://chelseachampions.github.io/indeams",
+  "homepage": "http://chelseachampions.github.io/",
 
   "scripts": {
     "dev": "vite --host 0.0.0.0",
