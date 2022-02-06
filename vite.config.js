@@ -8,7 +8,7 @@ export default defineConfig({
   define: {
     'process.env': process.env
   },
-  
+  base: '/indeams/',
   server: {
     port: "3001"
   },
