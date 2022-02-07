@@ -32,8 +32,8 @@ function FeaturesHome() {
               <div className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="mb-2 text-xl text-purple-600 font-architects-daughter">Evidence based only</div>
-                  <h3 className="mb-3 h3">Say hello to research data</h3>
-                  <p className="mb-4 text-xl text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                  <h3 className="mb-3 h3">Let's scale what works and use Tech for good</h3>
+                  <p className="mb-4 text-xl text-gray-400"></p>
                   <ul className="flex flex-wrap -mx-2 -my-1 text-lg text-gray-400">
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 mr-2 text-green-500 fill-current shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

@@ -15,6 +15,7 @@ import StatsMap from '../partials/StatsMap';
 import FeaturesHome1 from '../partials/FeaturesHome1';
 import Carousel from '../partials/Carousel';
 import Banner from '../partials/Banner';
+import FeaturesBlocks1 from '../partials/FeaturesBlocks1';
 
 function Home() {
   return (
@@ -33,14 +34,12 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <Process />
+        <FeaturesBlocks1/>
         <FeaturesHome1 />
-        <Tabs />
-        <FeaturesHome />
-       
+        <Process />
         
+        <FeaturesHome />
         <Target />
-       
         <Newsletter />
 
       </main>

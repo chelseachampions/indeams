@@ -30,15 +30,15 @@ function Target() {
                   <div className="mb-2 text-xl text-purple-600 font-architects-daughter" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">Together we can improve and maintain every Child and Young Person's mental health</div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="mb-2 h4"><span className="text-purple-600">.</span> For GPs and mental health services</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">To have social prescribing activities in one place would be a dream.</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="mb-2 h4"><span className="text-teal-500">.</span> For schools</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">We worry about the quiet students especially in terms of participation. This sounds great.</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="mb-2 h4"><span className="text-pink-500">.</span> For parents and carers</h4>
-                    <p className="text-lg text-gray-400">You want your child to thrive.</p>
+                    <p className="text-lg text-gray-400">I always thought Gaming was a bad activity but if my daughter can benefit from it then I am all for it!</p>
                   </div>
                 </div>
               </div>
