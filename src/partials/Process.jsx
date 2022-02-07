@@ -38,7 +38,7 @@ function Process() {
                 </g>
               </svg>
               <h4 className="mb-2 h4"><span className="text-gray-400">2</span>. Measure</h4>
-              <p className="text-lg text-center text-gray-400">Progress is key to what we do. We will use evidence based measurements of well being to make sure the CYP is on track to meet their goals .</p>
+              <p className="text-lg text-center text-gray-400">Progress is key to what we do. We will use evidence based measurements of wellbeing to make sure the CYP is on track to meet their goals.</p>
             </div>
 
             {/* 3rd item */}
@@ -49,7 +49,7 @@ function Process() {
                 <path className="text-purple-100 stroke-current" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="mb-2 h4"><span className="text-gray-400">3</span>. Maintain</h4>
-              <p className="text-lg text-center text-gray-400">Mental health is a continuum and therefore we put in place regular checkins with our CYPs to ensure their improvements are maintained..</p>
+              <p className="text-lg text-center text-gray-400">Mental health is a continuum and therefore we put in place regular checkins with our CYPs to ensure their improvements are maintained.</p>
             </div>
 
           </div>

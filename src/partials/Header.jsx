@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <header className="absolute z-30 w-full">
-      
+      <Banner/>
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
         <div className="flex items-center justify-between h-20">
 
@@ -55,27 +55,27 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex flex-wrap items-center justify-end grow">
               <li>
-                <Link to="/features" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
+                <Link to="/" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
                   Features
                 </Link>
               </li>
               <li>
-                <Link to="/pricing" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">Pricing</Link>
+                <Link to="/" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">Pricing</Link>
               </li>
               <li>
-                <Link to="/blog" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">Blog</Link>
+                <Link to="/" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">Blog</Link>
               </li>
               <li>
-                <Link to="/about" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">About us</Link>
+                <Link to="/" className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">About us</Link>
               </li>
               {/* 1st level: hover */}
               <Dropdown title="Support">
                 {/* 2nd level: hover */}
                 <li>
-                  <Link to="/contact" className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600">Contact us</Link>
+                  <Link to="/" className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600">Contact us</Link>
                 </li>
                 <li>
-                  <Link to="/help" className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600">Help center</Link>
+                  <Link to="/" className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600">Help center</Link>
                 </li>
                 <li>
                   <Link to="/404" className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-purple-600">404</Link>
@@ -86,10 +86,10 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap items-center justify-end grow">
               <li>
-                <Link to="/signin" className="flex items-center px-4 py-3 font-medium text-purple-600 transition duration-150 ease-in-out hover:text-gray-200">Sign in</Link>
+                <Link to="/" className="flex items-center px-4 py-3 font-medium text-purple-600 transition duration-150 ease-in-out hover:text-gray-200">Sign in</Link>
               </li>
               <li>
-                <Link to="/signup" className="ml-3 text-white bg-purple-600 btn-sm hover:bg-purple-700">Sign up</Link>
+                <Link to="/" className="ml-3 text-white bg-purple-600 btn-sm hover:bg-purple-700">Sign up</Link>
               </li>
             </ul>
 

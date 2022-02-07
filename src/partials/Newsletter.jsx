@@ -1,6 +1,36 @@
 import React from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 
 function Newsletter() {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [merged, setMerged] = useState();
+
+  const handleSubmit = e => {
+    e.preventDefault();
+   console.log({merged})
+    console.log('youve clicked the button', {name}, {email}) 
+    
+    axios.post('https://sheet.best/api/sheets/b7b8a180-d9b4-44c0-a74b-3e8ec1bb9fac', {merged})
+    .then(response => {
+      console.log(response) })
+  
+  
+  }
+    function handleEmailInputChange(e) {
+      setEmail(e.target.value)
+      const nameandemail = `${name} ${email}`
+      setMerged({nameandemail})
+    }
+    function handleNameInputChange(e) {
+      setName(e.target.value)
+      const nameandemail = `${name} ${email}`
+      setMerged({nameandemail})
+    }
+  
+  
+
   return (
     <section>
       <div className="max-w-6xl px-4 mx-auto sm:px-6">
@@ -26,14 +56,17 @@ function Newsletter() {
             {/* CTA content */}
             <div className="mb-6 text-center lg:mr-16 lg:mb-0 lg:text-left lg:w-1/2">
               <h3 className="mb-2 text-white h3">Can you help?</h3>
-              <p className="text-lg text-purple-200">Join our newsletter to get top news before anyone else.</p>
+              <p className="text-lg text-purple-200">Join our growing list of supporters and we'll keep you updated on our progress.</p>
             </div>
 
             {/* CTA form */}
             <form className="w-full lg:w-1/2">
-              <div className="flex flex-col justify-center max-w-xs mx-auto sm:flex-row sm:max-w-md lg:max-w-none">
-                <input type="email" className="w-full px-4 py-3 mb-2 text-white placeholder-purple-400 bg-purple-700 border border-purple-500 rounded-sm appearance-none focus:border-purple-300 sm:mb-0 sm:mr-2" placeholder="Your best email…" aria-label="Your best email…" />
-                <a className="text-purple-600 bg-purple-100 shadow btn hover:bg-white" href="#0">Subscribe</a>
+              <div className="flex flex-row justify-center max-w-xs py-3 mx-auto sm:flex-row sm:max-w-md lg:max-w-none">
+                <input type="text" className="w-full px-4 py-3 mb-2 text-white placeholder-purple-400 bg-purple-700 border border-purple-500 rounded-sm appearance-none focus:border-purple-300 sm:mb-0 sm:mr-2" placeholder="Your name…" aria-label="Your name…" value={name} onChange= { handleNameInputChange}/> 
+                </div>
+                <div className="flex flex-col justify-center max-w-xs mx-auto sm:flex-row sm:max-w-md lg:max-w-none">
+                <input type="email" className="w-full px-4 py-3 mb-2 text-white placeholder-purple-400 bg-purple-700 border border-purple-500 rounded-sm appearance-none focus:border-purple-300 sm:mb-0 sm:mr-2" placeholder="Your email…" aria-label="Your email…" value={email} onChange={ handleEmailInputChange }/>
+                <button className="text-purple-600 bg-purple-100 shadow btn hover:bg-white" onClick={handleSubmit} type="submit">Support</button>
               </div>
               {/* Success message */}
               {/* <p className="mt-2 text-sm text-center opacity-75 lg:text-left lg:absolute">Thanks for subscribing!</p> */}

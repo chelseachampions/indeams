@@ -39,7 +39,7 @@ function FeaturesHome1() {
             <div className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
             <div className="mb-2 text-xl text-purple-600 font-architects-daughter">We have to start where CYP's attention is</div>
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
-                <h3 className="mb-3 h3">Same objectives, new approaches</h3>
+                <h3 className="mb-3 h3">Same objectives, new approaches. One Platform</h3>
                
               </div>
               {/* Tabs buttons */}

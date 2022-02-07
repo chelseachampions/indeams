@@ -2,7 +2,6 @@
   "name": "open-pro-react",
   "version": "0.1.0",
   "homepage": "http://chelseachampions.github.io/",
-
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
@@ -14,6 +13,7 @@
     "@heroicons/react": "^1.0.5",
     "@tailwindcss/forms": "^0.4.0",
     "aos": "^3.0.0-beta.6",
+    "axios": "^0.25.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-flatpickr": "^3.10.7",
@@ -30,6 +30,4 @@
     "tailwindcss": "^3.0.15",
     "vite": "^2.7.2"
   }
-    
-  
 }

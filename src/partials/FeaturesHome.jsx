@@ -32,7 +32,7 @@ function FeaturesHome() {
               <div className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="mb-2 text-xl text-purple-600 font-architects-daughter">Evidence based only</div>
-                  <h3 className="mb-3 h3">Let's scale what works and use Tech for good</h3>
+                  <h3 className="mb-3 h3">Let's scale what works and use tech for good</h3>
                   <p className="mb-4 text-xl text-gray-400"></p>
                   <ul className="flex flex-wrap -mx-2 -my-1 text-lg text-gray-400">
                     <li className="flex items-center mx-2 my-1">
@@ -51,25 +51,13 @@ function FeaturesHome() {
                       <svg className="w-3 h-3 mr-2 text-green-500 fill-current shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Peer-reviewed</span>
-                    </li>
-                    <li className="flex items-center mx-2 my-1">
-                      <svg className="w-3 h-3 mr-2 text-green-500 fill-current shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
                       <span>GDPR compliant</span>
-                    </li>
-                    <li className="flex items-center mx-2 my-1">
-                      <svg className="w-3 h-3 mr-2 text-green-500 fill-current shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Science led</span>
                     </li>
                   </ul>
                   <div className="flex items-start mt-8">
                     <img className="mr-4 rounded-full shrink-0" src={FeatAvatar} width="40" height="40" alt="Features avatar" />
                     <div>
-                      <blockquote className="mb-3 italic text-gray-400">"Given we can see how the CYP's welbeing has improved over a certain timeframe, we thoroughly support Indeams work".</blockquote>
+                      <blockquote className="mb-3 italic text-gray-400">"social prescribing is very much at the forefront of professionals minds at the moment because there is a growing evidence base which is proving its efficacy. The biggest barrier we are facing is getting clients motivated and managing their anxiety to get out of the house so this sounds really really interesting".</blockquote>
                       <div className="font-medium text-gray-700">
                         <cite className="not-italic text-gray-200">— Sally Evans</cite> - <a className="text-purple-600 transition duration-150 ease-in-out hover:text-gray-200" href="#0">CAHMS Manager</a>
                       </div>

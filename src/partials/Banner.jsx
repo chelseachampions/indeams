@@ -11,18 +11,11 @@ export default function Banner() {
               <SpeakerphoneIcon className="w-6 h-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">We announced a new product!</span>
-              <span className="hidden md:inline">This is an info only page as we focus on building the platform. Launching soon.</span>
+              <span className="md:hidden">A high-level concept page, it does not exist.</span>
+              <span className="hidden md:inline">We're very early in our venture journey. This is just a high-level concept page, it does not exist.</span>
             </p>
           </div>
-          <div className="flex-shrink-0 order-3 w-full mt-2 sm:order-2 sm:mt-0 sm:w-auto">
-            <a
-              href="#"
-              className="flex items-center justify-center px-4 py-2 text-sm font-medium text-indigo-600 bg-white border border-transparent rounded-md shadow-sm hover:bg-indigo-50"
-            >
-              Happy to help!
-            </a>
-          </div>
+        
           <div className="flex-shrink-0 order-2 sm:order-3 sm:ml-3">
             <button
               type="button"
