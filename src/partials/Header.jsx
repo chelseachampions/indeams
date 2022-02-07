@@ -112,25 +112,25 @@ function Header() {
             <nav id="mobile-nav" ref={mobileNav} className="absolute left-0 z-20 w-full px-4 overflow-hidden transition-all duration-300 ease-in-out top-full sm:px-6" style={mobileNavOpen ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: .8 } }>
               <ul className="px-4 py-2 bg-gray-800">
                 <li>
-                  <Link to="/features" className="flex py-2 text-gray-300 hover:text-gray-200">Features</Link>
+                  <Link to="/" className="flex py-2 text-gray-300 hover:text-gray-200">Features</Link>
                 </li>
                 <li>
-                  <Link to="/pricing" className="flex py-2 text-gray-300 hover:text-gray-200">Pricing</Link>
+                  <Link to="/" className="flex py-2 text-gray-300 hover:text-gray-200">Pricing</Link>
                 </li>
                 <li>
-                  <Link to="/blog" className="flex py-2 text-gray-300 hover:text-gray-200">Blog</Link>
+                  <Link to="/" className="flex py-2 text-gray-300 hover:text-gray-200">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/about" className="flex py-2 text-gray-300 hover:text-gray-200">About us</Link>
+                  <Link to="/" className="flex py-2 text-gray-300 hover:text-gray-200">About us</Link>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-gray-700">
                   <span className="flex py-2 text-gray-300">Support</span>
                   <ul className="pl-4">
                     <li>
-                      <Link to="/contact" className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">Contact us</Link>
+                      <Link to="/" className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">Contact us</Link>
                     </li>
                     <li>
-                      <Link to="/help" className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">Help center</Link>
+                      <Link to="/" className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">Help center</Link>
                     </li>
                     <li>
                       <Link to="/404" className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">404</Link>
@@ -138,10 +138,10 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/signin" className="flex justify-center w-full py-2 font-medium text-purple-600 hover:text-gray-200">Sign in</Link>
+                  <Link to="/" className="flex justify-center w-full py-2 font-medium text-purple-600 hover:text-gray-200">Sign in</Link>
                 </li>
                 <li>
-                  <Link to="/signup" className="inline-flex items-center justify-center w-full px-4 py-2 my-2 font-medium text-white transition duration-150 ease-in-out bg-purple-600 border border-transparent rounded-sm hover:bg-purple-700">Sign up</Link>
+                  <Link to="/" className="inline-flex items-center justify-center w-full px-4 py-2 my-2 font-medium text-white transition duration-150 ease-in-out bg-purple-600 border border-transparent rounded-sm hover:bg-purple-700">Sign up</Link>
                 </li>
               </ul>
             </nav>
