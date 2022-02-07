@@ -34,6 +34,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <Process />
+        <FeaturesHome1 />
         <Tabs />
         <FeaturesHome />
        

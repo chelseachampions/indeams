@@ -28,11 +28,7 @@ function FeaturesHome1() {
       <div className="relative max-w-6xl px-4 mx-auto sm:px-6">
         <div className="pt-12 md:pt-20">
 
-          {/* Section header */}
-          <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
-            <h1 className="mb-4 h2">We are not replacing what works just modernising it</h1>
-            <p className="text-xl text-gray-600">We want to be an alternative to the medical route. Whilst on the waiting list, we want to be there making a positive impact to the CYP's well-being.</p>
-          </div>
+        
 
          
 
@@ -43,17 +39,17 @@ function FeaturesHome1() {
             <div className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">Different objectives, new platforms</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+               
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-gray-600 shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="mb-1 font-bold leading-snug tracking-tight">Building the Simple ecosystem</div>
+                    <div className="mb-1 font-bold leading-snug tracking-tight">Offline</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -63,13 +59,13 @@ function FeaturesHome1() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-gray-600 shadow-md border-gray-800 hover:shadow-lg' : 'bg-gray-800 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="mb-1 font-bold leading-snug tracking-tight">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="mb-1 font-bold leading-snug tracking-tight">Online</div>
+                    <div className="text-gray-200">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -78,13 +74,13 @@ function FeaturesHome1() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-gray-600 shadow-md border-gray-600 hover:shadow-lg' : 'bg-gray-600 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="mb-1 font-bold leading-snug tracking-tight">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="mb-1 font-bold leading-snug tracking-tight">Inline</div>
+                    <div className="text-gray-200">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +107,7 @@ function FeaturesHome1() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="mx-auto rounded md:max-w-none" src='/images/features-home-bg-01.png' width="500" height="375" alt="Features bg" />
+                    <img className="mx-auto rounded md:max-w-none" src='/images/frameoff.png' width="500" height="375" alt="Features bg" />
                     <img className="absolute left-0 w-full transform md:max-w-none animate-float" src='/images/features-home-element-01.png' width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
                     <img className="absolute left-0 w-full transform md:max-w-none animate-float animation-delay-500" src='/images/features-home-element-02.png' width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
                     <img className="absolute bottom-0 left-0 w-full transform md:max-w-none animate-float animation-delay-1000" src='/images/features-home-element-03.png' width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
@@ -130,7 +126,7 @@ function FeaturesHome1() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="mx-auto rounded md:max-w-none" src='/images/features-home-bg-01.png' width="500" height="375" alt="Features bg" />
+                    <img className="mx-auto rounded md:max-w-none" src='/images/FrameOn.png' width="500" height="375" alt="Features bg" />
                     <img className="absolute bottom-0 left-0 w-full transform md:max-w-none animate-float animation-delay-1000" src='/images/features-home-element-03.png' width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
                     <img className="absolute left-0 w-full transform md:max-w-none animate-float animation-delay-500" src='/images/features-home-element-02.png' width="500" height="158" alt="Element 02" style={{ top: '40%' }} />
                     <img className="absolute left-0 w-full transform md:max-w-none animate-float" src='/images/features-home-element-01.png' width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
