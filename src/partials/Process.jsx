@@ -8,7 +8,7 @@ function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-20">
-            <h2 className="mb-4 h2" data-aos="fade-up">Social Prescribing for a younger audience</h2>
+            <h2 className="mb-4 h2" data-aos="fade-up">Marketplace of communities for a younger audience</h2>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">All of our CYP members have different starting points of engagement, confidence and ability. They have different interests and passions.</p>
           </div>
 
