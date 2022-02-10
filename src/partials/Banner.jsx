@@ -11,8 +11,8 @@ export default function Banner() {
               <SpeakerphoneIcon className="w-6 h-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">A high-level concept page, it does not exist.</span>
-              <span className="hidden md:inline">We're very early in our venture journey. This is just a high-level concept page, it does not exist.</span>
+              <span className="md:hidden">This is for context only, it's not the solution.</span>
+              <span className="hidden md:inline">We're very early in our venture journey. This is for context only, it's not the solution.</span>
             </p>
           </div>
         

@@ -20,7 +20,7 @@ function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">Indeams is a platform built for a 2022 audience that facilitates social prescribing and behaviour change within CYPs, at a speed comfortable to the Individual; gradually progressing them on to achieving a goal or specific outcome..</div>
+              <div className="text-gray-400">Indeams is a platform built for a 2022 audience that facilitates social prescribing and behaviour change within CYPs, at a speed comfortable to the Individual; gradually progressing them on to achieving a goal or specific outcome.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
